@@ -1,0 +1,20 @@
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .header-text {
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width:1439px) {
+    .header-text {
+        padding-left: 35px;
+        padding-top: 90px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .header-text {
+        padding-left: 25px;
+        padding-top: 185px;
+    }
+}

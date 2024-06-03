@@ -1,0 +1,97 @@
+:root {
+    --purple-color: #7E33E0;
+    --pink-color: #FB2E86;
+    --blue-color: #1A0B5B;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --font-family: 'Josefin Sans';
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+/* Home */
+
+.top-bar {
+    background-color: var(--purple-color);
+    padding: 10px 0px;
+}
+
+.top-bar a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.top-bar select {
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: var(--white-color);
+}
+
+.top-bar select option {
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 34px;
+    color: var(--blue-color);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--pink-color);
+}
+
+.input-group-text {
+    background-color: var(--pink-color);
+    color: var(--white-color);
+}
+
+.carousel-inner {
+    background-image: url(../images/promotion-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-item h5 {
+    color: var(--pink-color);
+}
+
+.carousel-item h3 {
+    font-size: 47px;
+}
+
+.custom-btn {
+    background-color: var(--pink-color);
+    border: 1px solid var(--pink-color);
+    color: var(--white-color);
+    padding: 15px 40px;
+}
+
+.custom-btn:hover {
+    background-color: var(--purple-color);
+    border: 1px solid var(--purple-color);
+    color: var(--white-color);
+}
+
+.header-img {
+    width: 25%;
+    float: left;
+}
+
+.header-text {
+    width: 75%;
+    float: left;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--pink-color);
+}
